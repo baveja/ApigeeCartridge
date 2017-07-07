@@ -33,9 +33,7 @@
             <Description/>
             <Request>
                 #get-proxyFlowName#
-			<Step>
-				<Name>Fault.404ResourceNotFound</Name>
-			</Step>
+			
             </Request>
             <Response/>
             <Condition>(proxy.pathsuffix MatchesPath "/**")</Condition>
@@ -48,15 +46,12 @@
 
 	<PostClientFlow>
 		<Response>
-			<Step>
-				<Name>common.MessageLogging.spksysNpeTMobilePort1999</Name>
-				<Condition>(saveLogs = true) and (logEndpoint = "spksysNpeTMobilePort1999")</Condition>
-			</Step>
+			
 		</Response>
 	</PostClientFlow>
 
 	<HTTPProxyConnection>
-		<BasePath>/</BasePath>
+		<BasePath>/default</BasePath>
 		<VirtualHost>secure</VirtualHost>
 	</HTTPProxyConnection>
 	<RouteRule name="NoTarget"/>
