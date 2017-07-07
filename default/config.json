@@ -1,0 +1,117 @@
+{
+    "configurations": [
+        {
+            "name": "dev01",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dev02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dev03",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dev04",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dev05",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dev06",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dit01",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dit02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "dit03",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "qat01",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "qat02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "qat03",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "tm01",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "tm02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "trn01",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "trn02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "fct02",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        },
+        {
+            "name": "GenericBuild",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        }, {
+			"name" : "pel03",
+			"policies" : [],
+			"proxies" : [],
+			"targets" : []
+		}
+    ]
+}

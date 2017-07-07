@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM.getEndpoints" mapIdentifier="Endpoints">
+    <DisplayName>KVM.getEndpoints</DisplayName>
+    <Properties/>
+    <Get assignTo="aemEndpoint_web">
+        <Key>
+            <Parameter>aemEndpoint_web</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="aemEndpoint_care">
+        <Key>
+            <Parameter>aemEndpoint_care</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="aemEndpoint_retail">
+        <Key>
+            <Parameter>aemEndpoint_retail</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="freegeoIP">
+        <Key>
+            <Parameter>freegeoIP</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="autosuggest">
+        <Key>
+            <Parameter>autosuggest</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="awayacontext">
+        <Key>
+            <Parameter>awayacontext</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

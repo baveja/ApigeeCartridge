@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM.bazaarVoice" mapIdentifier="BazaarVoice">
+    <DisplayName>KVM.bazaarVoice</DisplayName>
+    <Properties/>
+    <Get assignTo="bazaarEndpoint">
+        <Key>
+            <Parameter>bazaarEndpoint</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="bazaarHostAuthentication">
+        <Key>
+            <Parameter>bazaarHostAuthentication</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="bazaarHostAuthenticationCallbackUrl">
+        <Key>
+            <Parameter>bazaarHostAuthenticationCallbackUrl</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="bazaarPassKey">
+        <Key>
+            <Parameter>bazaarPassKey</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="bazaarApiVersion">
+        <Key>
+            <Parameter>bazaarApiVersion</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="bazaarAppendString">
+        <Key>
+            <Parameter>bazaarAppendString</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
