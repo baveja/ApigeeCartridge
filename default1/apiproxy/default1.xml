@@ -3,7 +3,7 @@
 <!-- Fixed Oauth -->
 <!-- Fixed Addrum error -->
 <!-- Merge done from R1.6x to Sprint60 -->
-<APIProxy revision="1" name="default">
+<APIProxy revision="1" name="default1">
     <ConfigurationVersion minorVersion="0" majorVersion="4"/>
     <CreatedBy>akshay</CreatedBy>
     <Description>Facade Proxy to Handle Invalid Request</Description>
