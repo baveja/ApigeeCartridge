@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM.getPurchasePathEnvConfig" mapIdentifier="PurchasePathConfig">
+    <DisplayName>KVM.getPurchasePathEnvConfig</DisplayName>
+    <Properties/>
+    <Get assignTo="rts_es_endpoint_staging">
+        <Key>
+            <Parameter>rts_es_endpoint_staging</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="rts_es_index_ref_staging">
+        <Key>
+            <Parameter>rts_es_index_ref_staging</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="preLoadSnPEndpoint">
+        <Key>
+            <Parameter>preLoadSnPEndpoint</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

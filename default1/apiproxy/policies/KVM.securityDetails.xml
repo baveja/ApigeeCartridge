@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM.securityDetails" mapIdentifier="SecurityConfig">
+    <DisplayName>KVM.securityDetails</DisplayName>
+    <Properties/>
+    <Get assignTo="rts_es_read_only_token">
+        <Key>
+            <Parameter>rts_es_read_only_token</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

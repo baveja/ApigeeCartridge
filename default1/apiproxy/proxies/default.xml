@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+	<Description />
+	<PreFlow name="PreFlow">
+		<Request>
+		</Request>
+		<Response />
+	</PreFlow>
+	<Flows>
+		 <Flow name="environmentStatus">
+            <Description>/environmentstatus</Description>
+            <Request>
+                <Step>
+                    <Name>KVM.getEndpoints</Name>
+                </Step>
+                <Step>
+                    <Name>KVM.securityDetails</Name>
+                </Step>
+                <Step>
+                    <Name>KVM.bazaarVoice</Name>
+                </Step>
+                <Step>
+                    <Name>KVM.getPurchasePathEnvConfig</Name>
+                </Step>
+                <Step>
+                    <Name>Jsc.getEnvironmentStatus</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/environmentstatus") and (request.verb = "GET")</Condition>
+        </Flow>
+         <Flow name="default">
+            <Description/>
+            <Request>
+                #get-proxyFlowName#
+			
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/**")</Condition>
+        </Flow>
+	</Flows>
+	<PostFlow name="PostFlow">
+		<Request/>
+		<Response />
+	</PostFlow>
+
+	<PostClientFlow>
+		<Response>
+			
+		</Response>
+	</PostClientFlow>
+
+	<HTTPProxyConnection>
+		<BasePath>/default1</BasePath>
+		<VirtualHost>secure</VirtualHost>
+	</HTTPProxyConnection>
+	<RouteRule name="NoTarget"/>
+</ProxyEndpoint>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200000" name="Jsc.getEnvironmentStatus">
+    <DisplayName>Jsc.getEnvironmentStatus</DisplayName>
+    
+    <ResourceURL>jsc://getEnvironmentStatus.js</ResourceURL>
+</Javascript>
