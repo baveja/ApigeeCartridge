@@ -448,7 +448,7 @@
                                 </goals>
                                 <configuration>
                                     <proxyRefs>
-                                        <proxyRef>../common-proxy</proxyRef>
+                                        <proxyRef>../../common-proxy</proxyRef>
                                     </proxyRefs>
                                 </configuration>
                             </execution>
